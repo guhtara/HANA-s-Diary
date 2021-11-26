@@ -745,6 +745,16 @@ footer a {
     width: 100%;
     text-align: left;
   }
+  header #logo a {
+    color: #4896a8;
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    transition: 0.3s;
+    line-height: 60px;
+    margin-left: 10px;
+}
   header #logo a::before {
     display: none;
   }
@@ -759,7 +769,7 @@ footer a {
     display: inline-block;
     transition: 0.3s;
     font-size: 1.8rem;
-    bottom: 80px;
+    bottom: 30px;
     left: 20px;
   }
   header #logo br {
