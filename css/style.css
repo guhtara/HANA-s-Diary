@@ -128,14 +128,17 @@ header #logo a {
   transition: 0.3s;
   top: 30px;
 }
-header #logo span{
+header #logo br {
+  display: none;
+}
+header #logo h5 {
   color: #4896a8;
   border-radius: 6px;
   position: relative;
   z-index: 1;
   display: inline-block;
   transition: 0.3s;
-  font-size: 1.8rem;
+  font-size: 2rem;
 }
 header #logo a::before {
   content: "";
@@ -686,6 +689,7 @@ footer a {
   border-color: #4896a8;
 }
 
+/* max-width : 767px */
 @media screen and (max-width: 767px) {
   /* nav */
   #navArea {
@@ -736,27 +740,18 @@ footer a {
   header .inner {
     height: 650px;
   }
+
   header #logo {
-    width: 350px;
+    width: 100%;
     text-align: left;
   }
-  header #logo a {
-    color: #4896a8;
-    border-radius: 6px;
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    transition: 0.3s;
-    top: 30px;
-    line-height: 2rem;
-}
   header #logo a::before {
     display: none;
   }
   header #logo a:hover {
     color: #f95f9c;
   }
-  header #logo span {
+  header #logo h5 {
     color: #4896a8;
     border-radius: 6px;
     position: relative;
@@ -764,6 +759,9 @@ footer a {
     display: inline-block;
     transition: 0.3s;
     font-size: 1.8rem;
+  }
+  header #logo br {
+    display: block;
   }
   #hana-anime {
     width: 20%;
