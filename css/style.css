@@ -744,6 +744,7 @@ footer a {
   header #logo {
     width: 100%;
     text-align: left;
+    top:45%;
   }
   header #logo a {
     color: #4896a8;
@@ -770,7 +771,6 @@ footer a {
     transition: 0.3s;
     font-size: 1.8rem;
     bottom: 30px;
-    left: 20px;
   }
   header #logo br {
     display: block;
