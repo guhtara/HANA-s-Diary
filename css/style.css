@@ -751,7 +751,7 @@ footer a {
   header #logo a:hover {
     color: #f95f9c;
   }
-  header #logo h5 {
+  header #logo p {
     color: #4896a8;
     border-radius: 6px;
     position: relative;
@@ -759,6 +759,8 @@ footer a {
     display: inline-block;
     transition: 0.3s;
     font-size: 1.8rem;
+    bottom: 80px;
+    left: 20px;
   }
   header #logo br {
     display: block;
