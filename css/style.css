@@ -737,7 +737,7 @@ footer a {
     height: 650px;
   }
   header #logo {
-    width: 100%;
+    width: 350px;
     text-align: left;
   }
   header #logo a::before {
@@ -818,45 +818,6 @@ footer a {
   }
   .pc {
     display: none;
-  }
-}
-@media screen and (max-width: 480px) {
-  /* header */
-  header .inner {
-    height: 650px;
-  }
-
-  header #logo {
-    width: 100%;
-    text-align: left;
-  }
-  header #logo a::before {
-    display: none;
-  }
-  header #logo a:hover {
-    color: #f95f9c;
-  }
-  header #logo span {
-    color: #4896a8;
-    border-radius: 6px;
-    position: relative;
-    z-index: 1;
-    display: inline-block;
-    transition: 0.3s;
-    font-size: 1.8rem;
-  }
-  #hana-anime {
-    width: 20%;
-    position: absolute;
-    z-index: 1;
-    top: 35%;
-    left: 70%;
-    bottom: 10%;
-    opacity: 0;
-    animation-name: hana-anime;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
-    animation-delay: 5s;
   }
 }
 
