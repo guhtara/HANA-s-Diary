@@ -97,6 +97,8 @@ a:hover {
 /* header */
 header {
   background: url(../images/bg.jpg);
+    width: 100%;
+  overflow-x: hidden;
 }
 /*ヘッダーのinnerへの追加設定*/
 header .inner-home {
