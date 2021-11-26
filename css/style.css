@@ -748,7 +748,7 @@ footer a {
     display: inline-block;
     transition: 0.3s;
     top: 30px;
-    line-height: 2.5rem;
+    line-height: 2rem;
 }
   header #logo a::before {
     display: none;
