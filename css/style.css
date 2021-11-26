@@ -128,14 +128,14 @@ header #logo a {
   transition: 0.3s;
   top: 30px;
 }
-header #logo span {
+header #logo span{
   color: #4896a8;
   border-radius: 6px;
   position: relative;
   z-index: 1;
   display: inline-block;
   transition: 0.3s;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 header #logo a::before {
   content: "";
