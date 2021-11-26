@@ -117,6 +117,7 @@ header #logo {
   margin: 0 auto;
   font-family: cursive;
   font-size: 3rem;
+  text-align: center;
 }
 header #logo a {
   color: #4896a8;
@@ -125,6 +126,16 @@ header #logo a {
   z-index: 1;
   display: inline-block;
   transition: 0.3s;
+  top: 30px;
+}
+header #logo span {
+  color: #4896a8;
+  border-radius: 6px;
+  position: relative;
+  z-index: 1;
+  display: inline-block;
+  transition: 0.3s;
+  font-size: 2rem;
 }
 header #logo a::before {
   content: "";
@@ -728,12 +739,22 @@ footer a {
 
   header #logo {
     width: 300px;
+    text-align: left;
   }
   header #logo a::before {
     display: none;
   }
   header #logo a:hover {
     color: #f95f9c;
+  }
+  header #logo span {
+    color: #4896a8;
+    border-radius: 6px;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    transition: 0.3s;
+    font-size: 1.8rem;
   }
   #hana-anime {
     width: 20%;
