@@ -737,7 +737,7 @@ footer a {
     height: 650px;
   }
   header #logo {
-    width: 300px;
+    width: 100%;
     text-align: left;
   }
   header #logo a::before {
@@ -827,7 +827,7 @@ footer a {
   }
 
   header #logo {
-    width: 350px;
+    width: 100%;
     text-align: left;
   }
   header #logo a::before {
