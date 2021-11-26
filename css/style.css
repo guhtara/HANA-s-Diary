@@ -827,7 +827,7 @@ footer a {
   }
 
   header #logo {
-    width: 450px;
+    width: 100%;
     text-align: left;
   }
   header #logo a::before {
