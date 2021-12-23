@@ -177,7 +177,6 @@ header #logo a:hover::before {
   left: 0%;
   width: 100%;
 }
-/*メニュー１個ごとの設定*/
 #menubar-tab li {
   float: left;
   width: 25%;
@@ -193,7 +192,6 @@ header #logo a:hover::before {
   border-radius: 10px 10px 0px 0px;
   padding: 15px 5px;
 }
-/*１つ目のメニューへの設定*/
 #menubar-tab li:first-child a {
   margin-left: 0;
 }
@@ -205,7 +203,8 @@ header #logo a:hover::before {
   transition: 0.5s;
 }
 
-/* contents */
+/* contents 
+--------------------------------------------------------------------------------*/
 #contents {
   clear: both;
   overflow: hidden;
@@ -221,12 +220,12 @@ header #logo a:hover::before {
 #main {
   width: 100%;
 }
-/*１カラム時のmainコンテンツ*/
+
 .c1 #main {
   float: none;
   width: auto;
 }
-/*mainコンテンツのh2タグの設定*/
+
 #main h2 {
   clear: both;
   margin-bottom: 20px;
@@ -235,7 +234,7 @@ header #logo a:hover::before {
   padding-left: 20px;
   font-size: 20px;
 }
-/*mainコンテンツのh3タグの設定*/
+
 #main h3 {
   clear: both;
   margin-bottom: 20px;
@@ -244,11 +243,11 @@ header #logo a:hover::before {
   border-radius: 30px;
   border: 1px solid #ccc;
 }
-/*mainコンテンツの段落タグ設定*/
+
 #main p {
   padding: 0 20px 20px;
 }
-/*他*/
+
 #main h2 + p,
 #main h3 + p {
   margin-top: -5px;
@@ -277,7 +276,7 @@ header #logo a:hover::before {
   border: 1px solid #4896a8;
   background: #f4fafb;
 }
-/*写真*/
+
 #main .list .list-movie {
   width: 25%;
   float: left;
@@ -332,7 +331,6 @@ header #logo a:hover::before {
   bottom: 0;
 }
 
-/*h4タグ*/
 #main .list h4 {
   margin-left: 28%;
   color: #4896a8;
@@ -356,11 +354,10 @@ header #logo a:hover::before {
 #sub .box {
   padding: 30px 0;
 }
-/*１カラム時のsubコンテンツ*/
 .c1 #sub {
   display: none;
 }
-/*h2タグ*/
+
 #sub h2 {
   background: #999;
   color: #fff;
@@ -378,7 +375,6 @@ ul.submenu {
   border-bottom: none;
   text-align: center;
 }
-/*メニュー１個ごとの設定*/
 ul.submenu li {
   border-bottom: solid 1px #ccc;
 }
@@ -388,7 +384,7 @@ ul.submenu li a {
   padding: 5px;
 }
 ul.submenu li a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color:#4896a8;
   color: #fff;
   transition: 0.5s;
 }
@@ -398,7 +394,7 @@ ul.submenu li a:hover {
 .box {
   margin-bottom: 20px;
 }
-/*ボックス１個あたりの設定*/
+
 .list {
   position: relative;
   overflow: hidden;
@@ -412,7 +408,7 @@ ul.submenu li a:hover {
   padding: 8px 0;
   border-bottom: 1px solid #ccc;
 }
-/*写真*/
+
 .list-photo {
   width: 25%;
   overflow: hidden;
@@ -435,7 +431,7 @@ ul.submenu li a:hover {
   transition: all 0.4s step-end;
 }
 .list-photo:hover .caption {
-  visibility: visible; /* 文字を表示する */
+  visibility: visible; 
 }
 .list-photo .caption i {
   color: #fff;
@@ -596,12 +592,15 @@ footer a {
   border-color: #4896a8;
 }
 
+/*-----------------------------------------------------
+ *  max-width: 767px
+ *----------------------------------------------------*/
 @media screen and (max-width: 767px) {
-  /* nav */
+  /* nav 
+  ----------------------------------*/
   #navArea {
     display: block;
   }
-  /* nav */
   #nav-sp {
     display: block;
     position: fixed;
@@ -642,7 +641,9 @@ footer a {
   #nav-sp ul li a:hover {
     background: #e4e4e4;
   }
-  /* header */
+  
+  /* header 
+  -------------------------------------------------------*/
   header .inner {
     position: relative;
     height: 150px;
@@ -692,7 +693,8 @@ footer a {
     bottom: 10%;
   }
 
-  /* menubar */
+  /* menubar 
+  ---------------------------------------------------------------*/
   #menubar-tab {
     display: none;
   }
