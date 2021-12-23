@@ -89,18 +89,20 @@ a:hover {
   margin: 0 auto;
 }
 
-/* nav */
+/* nav 
+-------------------------------------------------------------------------------*/
 #navArea {
   display: none;
 }
 
-/* header */
+/* header 
+-------------------------------------------------------------------------------*/
 header {
   background: url(../images/bg.jpg);
     width: 100%;
   overflow-x: hidden;
 }
-/*ヘッダーのinnerへの追加設定*/
+
 header .inner-home {
   position: relative;
   height: 680px;
@@ -147,14 +149,15 @@ header #logo a:hover {
   color: #f95f9c;
 }
 
-/* menubar */
+/* menubar 
+----------------------------------------------------------------------*/
 #menubar-tab {
   position: absolute;
   bottom: 0px;
   left: 0%;
   width: 100%;
 }
-/*メニュー１個ごとの設定*/
+
 #menubar-tab li {
   float: left;
   width: 25%;
@@ -182,7 +185,8 @@ header #logo a:hover {
   transition: 0.5s;
 }
 
-/* contents */
+/* contents 
+--------------------------------------------------------------------------------------*/
 #contents {
   clear: both;
   overflow: hidden;
@@ -193,16 +197,15 @@ header #logo a:hover {
   margin: 40px 3% 0;
 }
 
-/* main */
+/* main 
+-------------------------------------------------------------------------------------*/
 #main {
   width: 100%;
 }
-/*１カラム時のmainコンテンツ*/
 .c1 #main {
   float: none;
   width: auto;
 }
-/*mainコンテンツのh2タグの設定*/
 #main h2 {
   clear: both;
   margin-bottom: 20px;
@@ -211,7 +214,6 @@ header #logo a:hover {
   padding-left: 20px;
   font-size: 20px;
 }
-/*mainコンテンツのh3タグの設定*/
 #main h3 {
   clear: both;
   margin-bottom: 20px;
@@ -220,7 +222,6 @@ header #logo a:hover {
   border-radius: 30px;
   border: 1px solid #ccc;
 }
-/*mainコンテンツの段落タグ設定*/
 #main p {
   padding: 0 0px 20px 0;
 }
@@ -233,8 +234,8 @@ header #logo a:hover {
   margin-top: -15px;
 }
 
-/*メインコンテンツ内の「list」ボックス*/
-/*ボックス１個あたりの設定*/
+/*メインコンテンツ内の「list」ボックス
+-------------------------------------------------------------------------------*/
 #main .list {
   position: relative;
   overflow: hidden;
@@ -247,18 +248,18 @@ header #logo a:hover {
   padding: 20px;
   border: 1px solid #ccc;
 }
-/*マウスオン時*/
+
 #main .list a:hover {
   border: 1px solid #4896a8;
   background: #f4fafb;
 }
-/*写真*/
+
 #main .list figure img {
   width: 25%;
   float: left;
   border-radius: 50%;
 }
-/*h4タグ*/
+
 #main .list h4 {
   margin-left: 28%;
   color: #4896a8;
@@ -266,7 +267,7 @@ header #logo a:hover {
   border-bottom: dashed 1px #4896a8;
   margin-bottom: 10px;
 }
-/*段落(p)タグ*/
+
 #main .list p {
   padding: 0 !important;
   margin-left: 28%;
@@ -402,7 +403,7 @@ ul.submenu li a {
   padding: 5px;
 }
 ul.submenu li a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: #4896a8;
   color: #fff;
   transition: 0.5s;
 }
@@ -412,7 +413,7 @@ ul.submenu li a:hover {
 .box {
   margin-bottom: 20px;
 }
-/*ボックス１個あたりの設定*/
+
 .list {
   position: relative;
   overflow: hidden;
@@ -426,7 +427,7 @@ ul.submenu li a:hover {
   padding: 8px 0;
   border-bottom: 1px solid #ccc;
 }
-/*写真*/
+
 .list-photo {
   width: 25%;
   overflow: hidden;
@@ -449,7 +450,7 @@ ul.submenu li a:hover {
   transition: all 0.4s step-end;
 }
 .list-photo:hover .caption {
-  visibility: visible; /* 文字を表示する */
+  visibility: visible; 
 }
 .list-photo .caption i {
   color: #fff;
@@ -614,7 +615,8 @@ footer a {
   color: #fff;
 }
 
-/*PAGE TOP（↑）設定*/
+/*PAGE TOP（↑）設定
+------------------------------------------------------------------------------*/
 #page_top {
   position: fixed;
   bottom: 20px;
@@ -671,13 +673,15 @@ footer a {
   border-color: #4896a8;
 }
 
-/* max-width : 767px */
+/*--------------------------------------------- 
+ *  max-width : 767px
+ *---------------------------------------------*/
 @media screen and (max-width: 767px) {
-  /* nav */
+  /* nav 
+  --------------------------------------------*/
   #navArea {
     display: block;
   }
-  /* nav */
   #nav-sp {
     display: block;
     position: fixed;
@@ -718,7 +722,8 @@ footer a {
   #nav-sp ul li a:hover {
     background: #e4e4e4;
   }
-  /* header */
+  /* header 
+  ----------------------------------------------------------------*/
   header .inner {
     height: 650px;
   }
