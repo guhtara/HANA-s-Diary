@@ -90,7 +90,20 @@ a:hover {
   margin: 0 auto;
 }
 
-/* nav */
+/* effect-fade 
+------------------------------------------------------------------------*/
+.effect-fade {
+  opacity: 0;
+  transform: translate(0, 45px);
+  transition: all 2s;
+}
+.effect-fade.effect-scroll {
+  opacity: 1;
+  transform: translate(0, 0);
+}
+
+/* nav 
+------------------------------------------------------------*/
 #navArea {
   display: none;
 }
