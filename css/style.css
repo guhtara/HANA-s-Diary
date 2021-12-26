@@ -302,15 +302,15 @@ header #logo a:hover {
 }
 
 .slider__inner:first-child {
-  animation: loop 90s linear infinite;
+  animation: loop 80s linear infinite;
 }
 
 .slider__inner:nth-child(2) {
-  animation: loop2 90s -60s linear infinite;
+  animation: loop2 80s -50s linear infinite;
 }
 
 .slider__inner:last-child {
-  animation: loop3 90s -30s linear infinite;
+  animation: loop3 80s -20s linear infinite;
 }
 
 @keyframes loop {
@@ -340,15 +340,15 @@ header #logo a:hover {
   }
 }
 .slider__inner:first-child {
-  animation: loop 90s linear infinite;
+  animation: loop 80s linear infinite;
 }
 
 .slider__inner:nth-child(2) {
-  animation: loop2 90s -60s linear infinite;
+  animation: loop2 80s -50s linear infinite;
 }
 
 .slider__inner:last-child {
-  animation: loop3 90s -30s linear infinite;
+  animation: loop3 80s -20s linear infinite;
 }
 
 @keyframes loop {
