@@ -355,8 +355,11 @@ header #logo a:hover::before {
 #main .list .movie-content p {
   margin-left: 28%;
 }
-#main .list .movie-content br {
-  display: none;
+#main .list .movie-content h4 br {
+  display: none;  
+}
+#main .list .movie-content p br {
+  display: block;
 }
 
 /*サブコンテンツ
